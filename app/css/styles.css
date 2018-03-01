@@ -1,14 +1,74 @@
 body {
   margin: 0;
-  background: pink;
   font-family: 'Montserrat', sans-serif; }
+
+.container {
+  text-align: center; }
 
 header {
   background: url("images/fog1.jpg");
-  text-align: center;
   color: white; }
+  header .header-content {
+    padding: 2% 0 15% 0; }
   header h1 {
     font-size: 30px;
     font-weight: 300; }
   header .desktop-nav, header .drop-down {
     display: none; }
+  header img {
+    padding-top: 5%; }
+  header h2 {
+    font-size: 18px;
+    margin-top: -15%;
+    font-weight: 300; }
+  header p {
+    font-size: 14px;
+    margin-bottom: 20%;
+    margin-top: 13%; }
+  header .fa-5x {
+    font-size: 117px; }
+
+#shop-on-etsy {
+  min-width: 100%;
+  background: #bca64d;
+  margin: 0;
+  padding: 5%; }
+  #shop-on-etsy h2 {
+    margin: 0;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 18px; }
+
+.main-panel h2 {
+  font-size: 20px;
+  font-weight: 400; }
+
+.main-panel p {
+  font-size: 12px;
+  color: #666;
+  font-weight: 300; }
+
+.girl-white-shirt img {
+  min-width: 100%;
+  height: auto; }
+
+.girl-white-shirt .flex-1 {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  padding: 0 5%; }
+
+.girl-white-shirt .font-aw-flex {
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row wrap;
+  align-items: stretch; }
+  .girl-white-shirt .font-aw-flex .fa-2x {
+    color: #b0b0b0;
+    flex-grow: 1; }
+
+.beads {
+  background: url("images/colorful-beads.jpg");
+  padding: 30%;
+  margin-top: 5%;
+  margin-bottom: 5%; }

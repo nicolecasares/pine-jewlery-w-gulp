@@ -1,18 +1,26 @@
 $gold: #bca64d;
 $navy: #103341;
 $white-text: #fff;
+$gray-text: #666;
 
 
 body{
 	margin: 0;
-	background: pink;
 	font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+	text-align: center;
 }
 
 header{
 	background: url('images/fog1.jpg');
-	text-align: center;
 	color: white;
+
+	.header-content{
+		padding: 2% 0 15% 0;
+	}
+
 
 	h1{
 		font-size: 30px;
@@ -24,9 +32,109 @@ header{
 		display: none;
 	}
 
-	logo{
-
+	img{
+		padding-top: 5%;
 	}
+
+	h2{
+		font-size: 18px;
+		margin-top: -15%;
+		font-weight: 300;
+	}
+
+	p{
+		font-size: 14px;
+		margin-bottom: 20%;
+    	margin-top: 13%;
+	
+	}
+
+	.fa-5x {
+    font-size: 117px;
+	}
+
+
 }
  
+
+#shop-on-etsy{
+	min-width: 100%;
+	background: $gold;
+	margin: 0;
+	padding: 5%;
+
+	h2{
+		margin: 0;
+		color: $white-text;
+		text-transform: uppercase;
+		font-weight: 400;
+		font-size: 18px;
+
+	}
+
+}
+
+
+.main-panel{
+	h2{
+		font-size: 20px;
+		font-weight: 400;
+	}
+
+	p{
+		font-size: 12px;
+		color: $gray-text;
+		font-weight: 300;
+	}
+
+
+}
+
+
+.girl-white-shirt{
+
+	img{
+		min-width: 100%;
+		height: auto;
+
+	}
+
+	.flex-1{
+		margin-top: 10%;
+    	margin-bottom: 10%;
+    	padding: 0 5%;
+	}
+
+	.font-aw-flex{
+		display: flex;
+  		justify-content: space-around;
+  		flex-flow: row wrap;
+  		align-items: stretch;
+
+
+		.fa-2x {
+    		color: #b0b0b0;
+    		flex-grow: 1;
+		}
+	}
+
+
+}
+
+.beads{
+	background: url('images/colorful-beads.jpg');
+	padding: 30%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+
+}
+
+
+
+
+
+
+
+
+
 
