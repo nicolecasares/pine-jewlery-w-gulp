@@ -7,14 +7,20 @@ $gray-text: #666;
 body{
 	margin: 0;
 	font-family: 'Montserrat', sans-serif;
+	max-width: 100%;
+	padding: 0;
+    box-sizing: border-box;
 }
 
 .container{
 	text-align: center;
+	max-width: 100%;
+	
 }
 
 header{
-	background: url('images/fog1.jpg');
+	background: url('images/fog1.jpg') no-repeat center;
+	background-size: cover;
 	color: white;
 
 	.header-content{
@@ -58,7 +64,7 @@ header{
  
 
 #shop-on-etsy{
-	min-width: 100%;
+	max-width: 100%;
 	background: $gold;
 	margin: 0;
 	padding: 5%;
@@ -76,6 +82,8 @@ header{
 
 
 .main-panel{
+
+
 	h2{
 		font-size: 20px;
 		font-weight: 400;
@@ -94,7 +102,7 @@ header{
 .girl-white-shirt{
 
 	img{
-		min-width: 100%;
+		max-width: 100%;
 		height: auto;
 
 	}
@@ -110,6 +118,7 @@ header{
   		justify-content: space-around;
   		flex-flow: row wrap;
   		align-items: stretch;
+  		margin-top: 12%;
 
 
 		.fa-2x {
@@ -126,6 +135,66 @@ header{
 	padding: 30%;
 	margin-top: 5%;
 	margin-bottom: 5%;
+
+}
+
+#store-discription{
+
+	.align-center {
+		text-align: center;
+		padding: 0 5%;
+		margin-top: 10%;
+    	margin-bottom: 10%;
+
+
+
+	}
+
+	img{
+		max-width: 85%;
+		height: auto;
+	}
+}
+
+.inverted-panel{
+	background: $navy;
+	color: white;
+	padding: 10% 0;
+
+	h2{
+		font-size: 20px;
+		font-weight: 400;
+	}
+
+	h3{
+		font-size: 14px;
+		font-weight: 300;
+		color: #d9d9d9;
+	}
+	p{
+		font-size: 11px;
+		font-weight: 300;
+		color: #999;
+		font-style: italic;
+		margin: 0 16px;
+	}
+
+	img{
+		max-width: 80%;
+		height: auto;
+	}
+
+
+	.flex-parent{
+		display: flex;
+		justify-content: space-around;
+
+		
+	}
+
+	.flex-item{
+		flex-grow: 1;
+	}
 
 }
 
