@@ -1,13 +1,32 @@
-.testing {
-  width: percentage(6/7);
-  color: blue;
-  background: green;
+$gold: #bca64d;
+$navy: #103341;
+$white-text: #fff;
 
-}
 
 body{
-	background: green;
+	margin: 0;
+	background: pink;
+	font-family: 'Montserrat', sans-serif;
 }
 
+header{
+	background: url('images/fog1.jpg');
+	text-align: center;
+	color: white;
 
+	h1{
+		font-size: 30px;
+		font-weight: 300;
+
+	}
+
+	.desktop-nav, .drop-down{
+		display: none;
+	}
+
+	logo{
+
+	}
+}
+ 
 

@@ -1,7 +1,14 @@
-.testing {
-  width: 85.71429%;
-  color: blue;
-  background: green; }
-
 body {
-  background: green; }
+  margin: 0;
+  background: pink;
+  font-family: 'Montserrat', sans-serif; }
+
+header {
+  background: url("images/fog1.jpg");
+  text-align: center;
+  color: white; }
+  header h1 {
+    font-size: 30px;
+    font-weight: 300; }
+  header .desktop-nav, header .drop-down {
+    display: none; }
