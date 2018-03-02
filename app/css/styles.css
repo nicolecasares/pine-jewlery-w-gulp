@@ -18,6 +18,10 @@ header {
   header h1 {
     font-size: 30px;
     font-weight: 300; }
+  @media only screen and (min-width: 500px) {
+    header h1 {
+      font-size: 65px;
+      margin-top: 20%; } }
   header .desktop-nav, header .drop-down {
     display: none; }
   header .hamburger {
@@ -27,14 +31,27 @@ header {
     top: 13px; }
   header img {
     padding-top: 5%; }
+  @media only screen and (min-width: 500px) {
+    header img {
+      float: left;
+      margin-left: 10%; } }
   header h2 {
     font-size: 18px;
     margin-top: -15%;
     font-weight: 300; }
+  @media only screen and (min-width: 500px) {
+    header h2 {
+      margin-top: -6%;
+      margin-bottom: 15%; } }
   header p {
     font-size: 14px;
     margin-bottom: 20%;
     margin-top: 13%; }
+  @media only screen and (min-width: 500px) {
+    header p {
+      font-size: 22px;
+      margin-top: 6%;
+      margin-bottom: 10%; } }
   header .fa-5x {
     font-size: 117px; }
 
@@ -49,24 +66,49 @@ header {
     text-transform: uppercase;
     font-weight: 400;
     font-size: 18px; }
+  @media only screen and (min-width: 500px) {
+    #shop-on-etsy {
+      display: none; } }
 
 .main-panel h2 {
   font-size: 20px;
   font-weight: 400; }
 
+@media only screen and (min-width: 1000px) {
+  .main-panel h2 {
+    font-size: 40px;
+    margin-top: 15%; } }
+
 .main-panel p {
   font-size: 12px;
   color: #666;
-  font-weight: 300; }
+  font-weight: 300;
+  margin: 31px 0; }
+
+@media only screen and (min-width: 1000px) {
+  .main-panel p {
+    font-size: 20px; } }
 
 .girl-white-shirt img {
   max-width: 100%;
   height: auto; }
 
+@media only screen and (min-width: 720px) {
+  .girl-white-shirt img {
+    max-width: none; } }
+
 .girl-white-shirt .flex-1 {
-  margin-top: 10%;
+  margin-top: 5%;
   margin-bottom: 10%;
   padding: 0 5%; }
+
+@media only screen and (min-width: 720px) {
+  .girl-white-shirt .flex-1 {
+    margin-bottom: 5%;
+    margin-left: 6%;
+    text-align: left;
+    height: 400px;
+    padding-bottom: 5%; } }
 
 .girl-white-shirt .font-aw-flex {
   display: flex;
@@ -74,25 +116,54 @@ header {
   flex-flow: row wrap;
   align-items: stretch;
   margin-top: 12%; }
-  .girl-white-shirt .font-aw-flex .fa-2x {
+  .girl-white-shirt .font-aw-flex .fa-1x {
     color: #b0b0b0;
-    flex-grow: 1; }
+    flex-grow: 1;
+    font-size: 23px; }
+
+@media only screen and (min-width: 720px) {
+  .girl-white-shirt {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end; } }
 
 .beads {
-  background: url("images/colorful-beads.jpg");
+  background: url("images/colorful-beads.jpg") no-repeat center;
+  background-size: cover;
   padding: 30%;
   margin-top: 5%;
   margin-bottom: 5%; }
+  @media only screen and (min-width: 500px) {
+    .beads {
+      margin-top: 0; } }
 
-#store-discription .align-center {
-  text-align: center;
-  padding: 0 5%;
-  margin-top: 10%;
-  margin-bottom: 10%; }
-
-#store-discription img {
-  max-width: 85%;
-  height: auto; }
+#store-discription {
+  margin-bottom: 35%; }
+  #store-discription .align-center {
+    text-align: center;
+    padding: 0 5%;
+    margin-top: 10%;
+    margin-bottom: 10%; }
+  @media only screen and (min-width: 880px) {
+    #store-discription .align-center {
+      text-align: left; } }
+  #store-discription img {
+    max-width: 85%;
+    height: auto; }
+  @media only screen and (min-width: 880px) {
+    #store-discription {
+      display: flex; } }
+  @media only screen and (min-width: 880px) {
+    #store-discription .copper-pendent {
+      display: flex;
+      flex-direction: column-reverse;
+      text-align: left; } }
+  @media only screen and (min-width: 880px) {
+    #store-discription .brown-band {
+      text-align: right; } }
+  @media only screen and (min-width: 880px) {
+    #store-discription .right-align {
+      text-align: right; } }
 
 .inverted-panel {
   background: #103341;
@@ -124,6 +195,9 @@ header {
     margin-top: 12%; }
   .inverted-panel .flex-item {
     flex-grow: 1; }
+  .inverted-panel .copper-pendent {
+    display: flex;
+    flex-direction: column-reverse; }
 
 .pinecone-section {
   background: url("images/pine-cone-small.jpg") no-repeat center;
@@ -161,10 +235,12 @@ footer {
     text-decoration: none;
     color: #999;
     margin-bottom: 8%; }
-  footer .fa {
+  footer .svg-inline--fa {
     color: #bca64d;
-    margin: 3%;
+    margin: 7%;
     font-size: 22px; }
   footer .fa-copyright {
     display: inline;
-    font-size: 12px; }
+    font-size: 12px;
+    margin: 0 2px;
+    color: #999; }
