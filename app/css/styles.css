@@ -105,12 +105,20 @@ header {
     font-weight: 300;
     color: #999;
     font-style: italic;
-    margin: 0 16px; }
+    margin: 0 16px;
+    margin-bottom: 33px; }
   .inverted-panel img {
-    max-width: 80%;
-    height: auto; }
+    height: auto;
+    width: 150px; }
   .inverted-panel .flex-parent {
     display: flex;
-    justify-content: space-around; }
+    justify-content: space-around;
+    align-items: stretch;
+    margin-top: 12%; }
   .inverted-panel .flex-item {
     flex-grow: 1; }
+
+.pinecone-section {
+  background: url("images/pine-cone-small.jpg") no-repeat center;
+  background-size: cover;
+  padding: 45%; }

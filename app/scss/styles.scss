@@ -177,17 +177,24 @@ header{
 		color: #999;
 		font-style: italic;
 		margin: 0 16px;
+		margin-bottom: 33px;
 	}
 
 	img{
-		max-width: 80%;
+		// max-width: 80%;
 		height: auto;
+		width: 150px;
 	}
 
 
 	.flex-parent{
 		display: flex;
+		// justify-content: center;
 		justify-content: space-around;
+  		// flex-flow: row wrap;
+  		align-items: stretch;
+  		margin-top: 12%;
+		
 
 		
 	}
@@ -196,6 +203,13 @@ header{
 		flex-grow: 1;
 	}
 
+}
+
+
+.pinecone-section{
+	background: url('images/pine-cone-small.jpg') no-repeat center;
+	background-size: cover;
+	padding: 45%;
 }
 
 
