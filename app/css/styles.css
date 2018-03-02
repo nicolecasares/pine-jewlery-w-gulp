@@ -20,6 +20,11 @@ header {
     font-weight: 300; }
   header .desktop-nav, header .drop-down {
     display: none; }
+  header .hamburger {
+    color: #bca64d;
+    position: fixed;
+    right: 13px;
+    top: 13px; }
   header img {
     padding-top: 5%; }
   header h2 {
@@ -148,8 +153,18 @@ header {
 footer {
   font-size: 12px;
   font-weight: 300;
-  color: #999; }
-  footer a {
+  color: #999;
+  margin-top: 20%;
+  margin-bottom: 10%; }
+  footer a, footer .fa-copyright {
     display: block;
     text-decoration: none;
-    color: #999; }
+    color: #999;
+    margin-bottom: 8%; }
+  footer .fa {
+    color: #bca64d;
+    margin: 3%;
+    font-size: 22px; }
+  footer .fa-copyright {
+    display: inline;
+    font-size: 12px; }
