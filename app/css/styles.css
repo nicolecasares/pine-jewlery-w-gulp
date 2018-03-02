@@ -99,14 +99,16 @@ header {
   .inverted-panel h3 {
     font-size: 14px;
     font-weight: 300;
-    color: #d9d9d9; }
+    color: #d9d9d9;
+    width: 150px; }
   .inverted-panel p {
     font-size: 11px;
     font-weight: 300;
     color: #999;
     font-style: italic;
     margin: 0 16px;
-    margin-bottom: 33px; }
+    margin-bottom: 33px;
+    width: 150px; }
   .inverted-panel img {
     height: auto;
     width: 150px; }
@@ -122,3 +124,32 @@ header {
   background: url("images/pine-cone-small.jpg") no-repeat center;
   background-size: cover;
   padding: 45%; }
+
+#closing h3 {
+  color: #666;
+  font-size: 22px;
+  font-weight: 400; }
+
+#closing a {
+  display: inline-block;
+  color: white;
+  background: #bca64d;
+  text-decoration: none;
+  padding: 4% 19%;
+  font-style: uppercase;
+  font-size: 18px;
+  font-weight: 600; }
+
+#closing p {
+  color: #999;
+  font-size: 11px;
+  font-weight: 300; }
+
+footer {
+  font-size: 12px;
+  font-weight: 300;
+  color: #999; }
+  footer a {
+    display: block;
+    text-decoration: none;
+    color: #999; }

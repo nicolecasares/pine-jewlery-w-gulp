@@ -170,6 +170,7 @@ header{
 		font-size: 14px;
 		font-weight: 300;
 		color: #d9d9d9;
+		width: 150px;
 	}
 	p{
 		font-size: 11px;
@@ -178,6 +179,7 @@ header{
 		font-style: italic;
 		margin: 0 16px;
 		margin-bottom: 33px;
+		width: 150px;
 	}
 
 	img{
@@ -210,6 +212,46 @@ header{
 	background: url('images/pine-cone-small.jpg') no-repeat center;
 	background-size: cover;
 	padding: 45%;
+}
+
+
+#closing{
+
+	h3{
+		color: #666;
+		font-size: 22px;
+		font-weight: 400;
+	}
+
+	a{
+		display: inline-block;
+    	color: white;
+    	background: $gold;
+    	text-decoration: none;
+    	padding: 4% 19%;
+    	font-style: uppercase;
+    	font-size: 18px;
+    	font-weight: 600;
+	}
+
+	p{
+		color: #999;
+		font-size: 11px;
+		font-weight: 300;
+
+	}
+}
+
+footer{
+	font-size: 12px;
+	font-weight: 300;
+	color: #999;
+
+	a{
+		display: block;
+		text-decoration: none;
+		color: #999
+	}
 }
 
 
