@@ -72,8 +72,28 @@ header{
 						    display: inline-block;
 							color: white;
 							text-align: center;
-							padding: 14px 16px;
+							padding: 10px 38px;
 							text-decoration: none;
+							text-transform: uppercase;
+							font-size: 15px;
+						}
+
+						li:nth-child(1){
+							border: solid 2px white;
+							margin-left: 5%;
+							transition: .35s ease-in-out;
+						}
+
+						li:nth-child(1):hover{
+							border: solid 2px white;
+							margin-left: 5%;
+							background: white;
+
+						}
+
+						li a:hover{
+							color: $navy;
+							// font-weight: 600;
 						}
 		}
 
@@ -98,6 +118,7 @@ header{
 			img{
 			float: left;
 			margin-left: 10%;
+			padding-top: 3%;
 			}
 		}
 
@@ -498,6 +519,10 @@ header{
 		@media only screen and (min-width: 500px){
 			a{
 				padding: 1% 4%;
+				transition: .35s ease-in-out;
+			}
+			a:hover{
+				background: $navy;
 			}
 
 	}
@@ -568,11 +593,21 @@ footer{
 		color: $gold;
 		margin: 7%;
 		font-size: 22px;
+		transition: .35s ease-in-out;
 	}
+
+	.svg-inline--fa:hover{
+		color: $navy;
+	}
+
 	@media only screen and (min-width: 500px){
 			.svg-inline--fa{
 				margin: 3%;
+				
 			}
+
+
+
 	}
 
 	.fa-copyright{
