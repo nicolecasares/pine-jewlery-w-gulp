@@ -502,6 +502,26 @@ footer{
 	margin-top: 20%;
 	margin-bottom: 10%;
 
+	p{
+
+	}
+
+		@media only screen and (min-width: 500px){
+			p{
+				margin-top: 0;
+			}
+
+		div:nth-child(1){
+			display: flex;
+			justify-content: center;
+		}
+
+		div:nth-child(2){
+			display: flex;
+			justify-content: center;
+		}
+	}
+
 	a, .fa-copyright{
 		display: block;
 		text-decoration: none;
@@ -509,10 +529,21 @@ footer{
 		margin-bottom: 8%;
 	}
 
+		@media only screen and (min-width: 500px){
+			a{
+				margin: 0 20px;
+			}
+		}
+
 	.svg-inline--fa{
 		color: $gold;
 		margin: 7%;
 		font-size: 22px;
+	}
+	@media only screen and (min-width: 500px){
+			.svg-inline--fa{
+				margin: 3%;
+			}
 	}
 
 	.fa-copyright{
@@ -521,6 +552,9 @@ footer{
 		margin: 0 2px;
 		color: #999;
 
+	}
+	@media only screen and (min-width: 500px){
+		margin-top: 10%;
 	}
 }
 
