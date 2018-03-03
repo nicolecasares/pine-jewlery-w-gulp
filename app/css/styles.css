@@ -215,7 +215,7 @@ header {
       width: inherit; } }
   .inverted-panel img {
     height: auto;
-    width: 150px; }
+    max-width: 70%; }
   @media only screen and (min-width: 717px) {
     .inverted-panel .flex-grandparent {
       display: flex;
@@ -224,9 +224,14 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: stretch;
-    margin-top: 12%; }
+    margin-top: 12%;
+    justify-content: center; }
+  @media only screen and (min-width: 717px) {
+    .inverted-panel .flex-parent {
+      margin-top: 5%; } }
   .inverted-panel .flex-item {
-    flex-grow: 1; }
+    flex-grow: 1;
+    flex-basis: 0; }
   .inverted-panel .copper-pendent {
     display: flex;
     flex-direction: column-reverse; }

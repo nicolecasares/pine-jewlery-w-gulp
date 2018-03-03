@@ -375,7 +375,7 @@ header{
 	img{
 		// max-width: 80%;
 		height: auto;
-		width: 150px;
+		max-width: 70%
 	}
 
 	.flex-grandparent{
@@ -398,13 +398,19 @@ header{
   		// flex-flow: row wrap;
   		align-items: stretch;
   		margin-top: 12%;
-		
-
-		
+  		justify-content: center;
+			
 	}
+
+		@media only screen and (min-width: 717px){
+			.flex-parent{
+				margin-top: 5%;
+			}
+		}
 
 	.flex-item{
 		flex-grow: 1;
+		flex-basis: 0;
 	}
 
 	.copper-pendent{
