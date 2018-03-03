@@ -26,6 +26,15 @@ header{
 	.header-content{
 		padding: 2% 0 15% 0;
 	}
+		@media only screen and (min-width: 500px){
+			.header-content{
+				// padding-bottom: 5%;
+			}
+		}
+		// @media only screen and (min-width: 500px){
+		// 	.header-content{
+		// 		padding: 2% 0 5% 0;
+		// }
 
 
 	h1{
@@ -71,7 +80,6 @@ header{
 		@media only screen and (min-width: 500px){
 			h2{
 				margin-top: -6%;
-				margin-bottom: 15%;
 			}
 		}
 
@@ -167,12 +175,29 @@ header{
 
 	}
 
+
+
 	@media only screen and (min-width: 720px){
 		img{
 			max-width: none;
 		}
 	}
 
+	.tan-hand{
+		display: none;
+	}
+		@media only screen and (min-width: 720px){
+			.tan-hand{
+				display: inherit;
+			}
+		}
+	.brown-bracelet{
+	}
+		@media only screen and (min-width: 720px){
+			.brown-bracelet{
+				display: none;
+			}
+		}
 
 	.flex-1{
 		margin-top: 5%;
@@ -193,6 +218,7 @@ header{
 			}
 		}
 
+
 	.font-aw-flex{
 		display: flex;
   		justify-content: space-around;
@@ -211,9 +237,8 @@ header{
 	@media only screen and (min-width: 720px){
 		display: flex;
     	flex-direction: row-reverse;
-    	// margin-top: 10%;
-    	// margin-left: 4%;
     	align-items: flex-end;
+    	margin-right: 5%;
 		}
 
 
@@ -222,7 +247,7 @@ header{
 .beads{
 	background: url('images/colorful-beads.jpg') no-repeat center;
 	background-size: cover;
-	padding: 30%;
+	padding: 20%;
 	margin-top: 5%;
 	margin-bottom: 5%;
 
@@ -241,13 +266,15 @@ header{
 	.align-center {
 		text-align: center;
 		padding: 0 5%;
-		margin-top: 10%;
-    	margin-bottom: 10%;
+    	margin: auto;
 	}
 
 		@media only screen and (min-width: 880px){
 			.align-center{
 				text-align: left;
+				margin-top: 10%;
+    			margin-bottom: 10%;
+    			margin-left: 20%;
 			}
 		}
 
@@ -262,6 +289,7 @@ header{
 	}
 
 	.copper-pendent{
+		margin: auto
 
 	}
 		@media only screen and (min-width: 880px){
@@ -269,6 +297,7 @@ header{
 				display: flex;
 				flex-direction: column-reverse;
 				text-align: left;
+				margin-right: 15%;
 			}
 		}
 	.brown-band{
@@ -289,6 +318,19 @@ header{
 				text-align: right;
 			}
 		}
+
+	.align-left{
+
+	}
+		@media only screen and (min-width: 880px){
+			.align-left{
+				margin-left: 0;
+			}
+		}
+
+	@media only screen and (min-width: 880px){
+		margin-bottom: 10%;
+	}
 
 
 }
@@ -355,10 +397,15 @@ header{
 	background: url('images/pine-cone-small.jpg') no-repeat center;
 	background-size: cover;
 	padding: 45%;
+
+	@media only screen and (min-width: 500px){
+		display: none;
+	}
 }
 
 
 #closing{
+
 
 	h3{
 		color: #666;
@@ -382,7 +429,11 @@ header{
 		font-size: 11px;
 		font-weight: 300;
 
-
+	}
+	@media only screen and (min-width: 500px){
+		background: url('images/pine-cone-small.jpg') no-repeat center;
+		background-size: cover;
+		padding-top: 40%;
 	}
 }
 

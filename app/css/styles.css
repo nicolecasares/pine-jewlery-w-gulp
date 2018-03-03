@@ -41,8 +41,7 @@ header {
     font-weight: 300; }
   @media only screen and (min-width: 500px) {
     header h2 {
-      margin-top: -6%;
-      margin-bottom: 15%; } }
+      margin-top: -6%; } }
   header p {
     font-size: 14px;
     margin-bottom: 20%;
@@ -97,6 +96,17 @@ header {
   .girl-white-shirt img {
     max-width: none; } }
 
+.girl-white-shirt .tan-hand {
+  display: none; }
+
+@media only screen and (min-width: 720px) {
+  .girl-white-shirt .tan-hand {
+    display: inherit; } }
+
+@media only screen and (min-width: 720px) {
+  .girl-white-shirt .brown-bracelet {
+    display: none; } }
+
 .girl-white-shirt .flex-1 {
   margin-top: 5%;
   margin-bottom: 10%;
@@ -125,12 +135,13 @@ header {
   .girl-white-shirt {
     display: flex;
     flex-direction: row-reverse;
-    align-items: flex-end; } }
+    align-items: flex-end;
+    margin-right: 5%; } }
 
 .beads {
   background: url("images/colorful-beads.jpg") no-repeat center;
   background-size: cover;
-  padding: 30%;
+  padding: 20%;
   margin-top: 5%;
   margin-bottom: 5%; }
   @media only screen and (min-width: 500px) {
@@ -142,28 +153,39 @@ header {
   #store-discription .align-center {
     text-align: center;
     padding: 0 5%;
-    margin-top: 10%;
-    margin-bottom: 10%; }
+    margin: auto; }
   @media only screen and (min-width: 880px) {
     #store-discription .align-center {
-      text-align: left; } }
+      text-align: left;
+      margin-top: 10%;
+      margin-bottom: 10%;
+      margin-left: 20%; } }
   #store-discription img {
     max-width: 85%;
     height: auto; }
   @media only screen and (min-width: 880px) {
     #store-discription {
       display: flex; } }
+  #store-discription .copper-pendent {
+    margin: auto; }
   @media only screen and (min-width: 880px) {
     #store-discription .copper-pendent {
       display: flex;
       flex-direction: column-reverse;
-      text-align: left; } }
+      text-align: left;
+      margin-right: 15%; } }
   @media only screen and (min-width: 880px) {
     #store-discription .brown-band {
       text-align: right; } }
   @media only screen and (min-width: 880px) {
     #store-discription .right-align {
       text-align: right; } }
+  @media only screen and (min-width: 880px) {
+    #store-discription .align-left {
+      margin-left: 0; } }
+  @media only screen and (min-width: 880px) {
+    #store-discription {
+      margin-bottom: 10%; } }
 
 .inverted-panel {
   background: #103341;
@@ -203,6 +225,9 @@ header {
   background: url("images/pine-cone-small.jpg") no-repeat center;
   background-size: cover;
   padding: 45%; }
+  @media only screen and (min-width: 500px) {
+    .pinecone-section {
+      display: none; } }
 
 #closing h3 {
   color: #666;
@@ -223,6 +248,12 @@ header {
   color: #999;
   font-size: 11px;
   font-weight: 300; }
+
+@media only screen and (min-width: 500px) {
+  #closing {
+    background: url("images/pine-cone-small.jpg") no-repeat center;
+    background-size: cover;
+    padding-top: 40%; } }
 
 footer {
   font-size: 12px;
