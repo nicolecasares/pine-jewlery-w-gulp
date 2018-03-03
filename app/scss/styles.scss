@@ -52,6 +52,30 @@ header{
 	.desktop-nav, .drop-down{
 		display: none;
 	}
+		@media only screen and (min-width: 850px){
+			.desktop-nav{
+				display: inherit;
+			}
+				ul {
+				    list-style-type: none;
+				    margin: 0;
+				    overflow: hidden;
+				    padding-top: 5%;
+    				padding-right: 5%;
+	    		}
+
+	    			li{
+	    				float: right;
+	    			}
+
+						li a {
+						    display: inline-block;
+							color: white;
+							text-align: center;
+							padding: 14px 16px;
+							text-decoration: none;
+						}
+		}
 
 	.hamburger{
 		// float: right;
@@ -60,6 +84,11 @@ header{
 		right: 13px;
 		top: 13px;
 	}
+		@media only screen and (min-width: 850px){
+			.hamburger{
+				display: none;
+			}
+		}
 
 	img{
 		padding-top: 5%;

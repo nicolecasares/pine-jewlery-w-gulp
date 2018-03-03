@@ -24,11 +24,31 @@ header {
       margin-top: 15%; } }
   header .desktop-nav, header .drop-down {
     display: none; }
+  @media only screen and (min-width: 850px) {
+    header .desktop-nav {
+      display: inherit; }
+    header ul {
+      list-style-type: none;
+      margin: 0;
+      overflow: hidden;
+      padding-top: 5%;
+      padding-right: 5%; }
+    header li {
+      float: right; }
+    header li a {
+      display: inline-block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none; } }
   header .hamburger {
     color: #bca64d;
     position: fixed;
     right: 13px;
     top: 13px; }
+  @media only screen and (min-width: 850px) {
+    header .hamburger {
+      display: none; } }
   header img {
     padding-top: 5%; }
   @media only screen and (min-width: 500px) {
