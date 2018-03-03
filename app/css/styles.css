@@ -194,6 +194,10 @@ header {
   .inverted-panel h2 {
     font-size: 20px;
     font-weight: 400; }
+  @media only screen and (min-width: 500px) {
+    .inverted-panel h2 {
+      font-size: 30px;
+      margin: 0 10%; } }
   .inverted-panel h3 {
     font-size: 14px;
     font-weight: 300;
@@ -201,7 +205,8 @@ header {
     width: 150px; }
   @media only screen and (min-width: 387px) {
     .inverted-panel h3 {
-      width: inherit; } }
+      width: inherit;
+      font-size: 20px; } }
   .inverted-panel p {
     font-size: 11px;
     font-weight: 300;
@@ -212,7 +217,8 @@ header {
     width: 150px; }
   @media only screen and (min-width: 387px) {
     .inverted-panel p {
-      width: inherit; } }
+      width: inherit;
+      font-size: 13px; } }
   .inverted-panel img {
     height: auto;
     max-width: 70%; }
@@ -244,31 +250,41 @@ header {
     .pinecone-section {
       display: none; } }
 
-#closing h3 {
-  color: #666;
-  font-size: 22px;
-  font-weight: 400; }
-
-#closing a {
-  display: inline-block;
-  color: white;
-  background: #bca64d;
-  text-decoration: none;
-  padding: 4% 19%;
-  font-style: uppercase;
-  font-size: 18px;
-  font-weight: 600; }
-
-#closing p {
-  color: #999;
-  font-size: 11px;
-  font-weight: 300; }
-
-@media only screen and (min-width: 500px) {
-  #closing {
-    background: url("images/pine-cone-small.jpg") no-repeat center;
-    background-size: cover;
-    padding-top: 40%; } }
+#closing {
+  padding: 1% 4%; }
+  #closing h3 {
+    color: #666;
+    font-size: 22px;
+    font-weight: 400; }
+  @media only screen and (min-width: 500px) {
+    #closing h3 {
+      font-size: 35px; } }
+  #closing a {
+    display: inline-block;
+    color: white;
+    background: #bca64d;
+    text-decoration: none;
+    padding: 4% 19%;
+    font-style: uppercase;
+    font-size: 18px;
+    font-weight: 600; }
+  @media only screen and (min-width: 500px) {
+    #closing a {
+      padding: 1% 4%; } }
+  #closing p {
+    color: #999;
+    font-size: 11px;
+    font-weight: 300; }
+  @media only screen and (min-width: 500px) {
+    #closing p {
+      display: none; } }
+  @media only screen and (min-width: 500px) {
+    #closing {
+      background: url("images/pine-cone-small.jpg") no-repeat center;
+      background-size: cover;
+      padding-top: 30%;
+      padding-bottom: 10%;
+      text-align: left; } }
 
 footer {
   font-size: 12px;

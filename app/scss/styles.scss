@@ -344,6 +344,12 @@ header{
 		font-size: 20px;
 		font-weight: 400;
 	}
+		@media only screen and (min-width: 500px){
+			h2{
+				font-size: 30px;
+				margin: 0 10%;
+			}
+		}
 
 	h3{
 		font-size: 14px;
@@ -354,6 +360,7 @@ header{
 		@media only screen and (min-width: 387px){
 			h3{
 				width: inherit;
+				font-size: 20px;
 			}
 		}
 
@@ -369,6 +376,7 @@ header{
 		@media only screen and (min-width: 387px){
 			p{
 				width: inherit;
+				font-size: 13px;
 			}
 		}
 
@@ -441,6 +449,11 @@ header{
 		font-size: 22px;
 		font-weight: 400;
 	}
+		@media only screen and (min-width: 500px){
+			h3{
+				font-size: 35px;
+			}
+		}
 
 	a{
 		display: inline-block;
@@ -453,16 +466,32 @@ header{
     	font-weight: 600;
 	}
 
+		@media only screen and (min-width: 500px){
+			a{
+				padding: 1% 4%;
+			}
+
+	}
+
+	    padding: 1% 4%;
+
 	p{
 		color: #999;
 		font-size: 11px;
 		font-weight: 300;
 
 	}
+		@media only screen and (min-width: 500px){
+			p{
+				display: none;
+			}
+		}
 	@media only screen and (min-width: 500px){
 		background: url('images/pine-cone-small.jpg') no-repeat center;
 		background-size: cover;
-		padding-top: 40%;
+		padding-top: 30%;
+		padding-bottom: 10%;
+		text-align: left;
 	}
 }
 
