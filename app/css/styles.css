@@ -21,7 +21,7 @@ header {
   @media only screen and (min-width: 500px) {
     header h1 {
       font-size: 65px;
-      margin-top: 20%; } }
+      margin-top: 15%; } }
   header .desktop-nav, header .drop-down {
     display: none; }
   header .hamburger {
@@ -199,6 +199,9 @@ header {
     font-weight: 300;
     color: #d9d9d9;
     width: 150px; }
+  @media only screen and (min-width: 387px) {
+    .inverted-panel h3 {
+      width: inherit; } }
   .inverted-panel p {
     font-size: 11px;
     font-weight: 300;
@@ -207,9 +210,16 @@ header {
     margin: 0 16px;
     margin-bottom: 33px;
     width: 150px; }
+  @media only screen and (min-width: 387px) {
+    .inverted-panel p {
+      width: inherit; } }
   .inverted-panel img {
     height: auto;
     width: 150px; }
+  @media only screen and (min-width: 717px) {
+    .inverted-panel .flex-grandparent {
+      display: flex;
+      justify-content: center; } }
   .inverted-panel .flex-parent {
     display: flex;
     justify-content: space-around;

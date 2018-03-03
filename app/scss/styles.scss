@@ -45,7 +45,7 @@ header{
 		@media only screen and (min-width: 500px){
     		h1{
     			font-size: 65px;
-    			margin-top: 20%;
+    			margin-top: 15%;
     		}
     	}
 
@@ -351,6 +351,12 @@ header{
 		color: #d9d9d9;
 		width: 150px;
 	}
+		@media only screen and (min-width: 387px){
+			h3{
+				width: inherit;
+			}
+		}
+
 	p{
 		font-size: 11px;
 		font-weight: 300;
@@ -360,12 +366,29 @@ header{
 		margin-bottom: 33px;
 		width: 150px;
 	}
+		@media only screen and (min-width: 387px){
+			p{
+				width: inherit;
+			}
+		}
 
 	img{
 		// max-width: 80%;
 		height: auto;
 		width: 150px;
 	}
+
+	.flex-grandparent{
+
+
+	}
+		@media only screen and (min-width: 717px){
+			.flex-grandparent{
+				display: flex;
+    			justify-content: center;
+    			
+			}
+		}
 
 
 	.flex-parent{
