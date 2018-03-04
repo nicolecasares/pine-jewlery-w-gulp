@@ -278,7 +278,10 @@ header {
       margin-top: 5%; } }
   .inverted-panel .flex-item {
     flex-grow: 1;
-    flex-basis: 0; }
+    flex-basis: 0;
+    transition: .35s ease-in-out; }
+  .inverted-panel .flex-item:hover {
+    -webkit-filter: grayscale(1); }
   .inverted-panel .copper-pendent {
     display: flex;
     flex-direction: column-reverse; }

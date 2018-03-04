@@ -483,6 +483,12 @@ header{
 	.flex-item{
 		flex-grow: 1;
 		flex-basis: 0;
+		transition: .35s ease-in-out;
+	}
+
+	.flex-item:hover{
+		// -webkit-filter: drop-shadow(15px 15px 20px black);
+		-webkit-filter: grayscale(1);
 	}
 
 	.copper-pendent{
