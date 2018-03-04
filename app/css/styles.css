@@ -21,8 +21,16 @@ header {
   @media only screen and (min-width: 500px) {
     header h1 {
       font-size: 65px;
-      margin-top: 15%; } }
-  header .desktop-nav, header .drop-down {
+      margin-top: 20%; } }
+
+@media only screen and (min-width: 500px) and (min-width: 653px) {
+  header h2 {
+    margin-top: 15%; } }
+
+@media only screen and (min-width: 500px) and (min-width: 1180px) {
+  header h1 {
+    margin-top: 10%; } }
+  header .desktop-nav, header .menu-toggle {
     display: none; }
   @media only screen and (min-width: 850px) {
     header .desktop-nav {
@@ -300,13 +308,13 @@ header {
     padding: 4% 19%;
     font-style: uppercase;
     font-size: 18px;
-    font-weight: 600; }
+    font-weight: 600;
+    transition: .35s ease-in-out; }
+  #closing a:hover {
+    background: #103341; }
   @media only screen and (min-width: 500px) {
     #closing a {
-      padding: 1% 4%;
-      transition: .35s ease-in-out; }
-    #closing a:hover {
-      background: #103341; } }
+      padding: 1% 4%; } }
   #closing p {
     color: #999;
     font-size: 11px;
