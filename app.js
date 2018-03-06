@@ -1,4 +1,7 @@
 
+
+
+
 var menu = document.querySelector('.menu-toggle');
 
 
@@ -16,19 +19,14 @@ var menu = document.querySelector('.menu-toggle');
 	  window.clearTimeout(timeoutID);
 	}
 
+	delayedAlert();
+
 document.querySelector('.hamburger').addEventListener('click', function(){
 
 
-	menu.style.display = 'block';
-	menu.style.position = 'fixed';
-	menu.style.top = '0';
-	menu.style.background = 'white';
-	menu.style.width = '100%';
-	// window.alert('this is a test');
+	menu.classList.toggle('active');
 
 
-
-	delayedAlert();
 
 });
 
@@ -36,6 +34,6 @@ document.querySelector('.hamburger').addEventListener('click', function(){
 
 
 menu.addEventListener('click', function(){
-	document.querySelector('.menu-toggle').style.display = 'none';
+	menu.classList.toggle('active');
 });
 
